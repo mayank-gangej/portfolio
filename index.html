@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mayank Gangej | Graphic Designer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Hi, I'm <span>Mayank Gangej</span></h1>
+      <h2>A Creative Graphic Designer</h2>
+      <a href="#portfolio" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container" data-aos="fade-right">
+      <h2>About Me</h2>
+      <p>I’m a passionate Graphic Designer who loves turning ideas into visually stunning designs. With expertise in branding, posters, digital art, and more.</p>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <h2 data-aos="fade-up">My Work</h2>
+    <div class="gallery">
+      <!-- Add your portfolio items -->
+      <div class="work" data-aos="zoom-in"><img src="images/design1.jpg" alt="Design 1"></div>
+      <div class="work" data-aos="zoom-in"><img src="images/design2.jpg" alt="Design 2"></div>
+      <div class="work" data-aos="zoom-in"><img src="images/design3.jpg" alt="Design 3"></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container" data-aos="fade-left">
+      <h2>Contact Me</h2>
+      <form action="mailto:youremail@example.com" method="POST">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Mayank Gangej. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="#"><i class="fab fa-behance"></i></a>
+      <a href="#"><i class="fab fa-dribbble"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
